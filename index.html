@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="background">   </div>
+    
+   
+    <main>
+        <form id="resumeForm" ACTION=">
+            <div class="resume">
+                <h1 id="myresume">My Resume</h1>
+                
+            </div>
+            <div id="image-input-container">
+                <label for="imageinput">Select your image:</label>
+                <input type="file" id="imageinput" name="imageinput">
+            </div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <div>
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact">
+            </div>
+            
+            <div>
+                <label for="email">Email:</label>
+                <input type="mail" id="email" name="email">
+            </div>
+            <div>
+                <label for="Education">Education:</label>
+                <input type="education" id="education" name="Education">
+            </div>
+            <div>
+                <label for="language">Language:</label>
+                <input type="text" id="language" name="language">
+            </div>
+            <div>
+                <label for="experience">Experience:</label>
+                <input type="text" id="experience" name="language">
+            </div>
+
+            <button type="button" id="generateResume">Generate Resume</button>
+        </form>
+
+        <div id="resumePreview">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

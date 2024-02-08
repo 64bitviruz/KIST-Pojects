@@ -1,0 +1,98 @@
+﻿/* Basic styling for form and preview */
+body {
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color:black;
+    color:white;
+}
+#background{
+    position:absolute;
+    top:0%;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: .5;
+    background-image: url("https://wallpapercave.com/wp/wp2351063.jpg");
+
+}
+
+#previewImage {
+    border-radius: 50%; /* Make the image circular */
+    width: 150px; /* Adjust the width of the circular image as needed */
+    height: 150px; /* Adjust the height of the circular image as needed */
+    object-fit: cover; /* Ensure the image covers the circular area */
+}
+
+#myresume{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    box-shadow: inset;
+}
+
+#image-input-container{
+    margin-left: 78%;
+}
+#name,#address,#contact,#email,#education,#language,#experience{
+    background-color: black;
+    color: antiquewhite;}
+
+textarea{
+    background-color: black;
+    color: wheat;
+}
+#resumePreview{
+    background-color: black;
+    color: white;
+}
+header {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+}
+
+#resumePreview {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.h1{
+    background-color: black;
+    color: blueviolet;
+
+}
+.resume {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#image-container {
+    margin-top: 20px;
+}
+
+#image-upload {
+    display: none;
+}
+
+#uploaded-image {
+    max-width: 100%;
+    margin-top: 10px;
+}
